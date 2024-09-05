@@ -6,7 +6,7 @@ import FooterForm from './FooterForm';
 import axios from 'axios';
 import botImage from '../assets/bot_img.png';
 import usrImage from '../assets/usr_img.png'
-import profile from '../assets/profile.svg'
+
 
 
 // Interface for a message object, representing both user and bot messages.
@@ -336,11 +336,11 @@ const ChatBox: React.FC = () => {
         <div ref={chatContainerRef} className="flex flex-col flex-grow overflow-y-auto items-center w-full px-4 overflow-hidden hide-scrollbar">
                 <img
                 loading="lazy"
-                src={profile}
+                src={botImage}
                 className="object-contain mt-4 rounded-full aspect-square w-[54px]"
                 alt="Profile"
                 />
-                <h1 className="mt-2 text-sm font-bold leading-loose text-black">Hi, I’m Ava</h1>
+                <h1 className="mt-2 text-sm font-bold leading-loose text-black">Hi, I’m Rio</h1>
                 <p className="text-sm leading-loose text-neutral-500 text-opacity-90">How can I help you?</p>
 
                 <section className="flex flex-col self-stretch mt-4 mb-4 w-full space-y-4">
@@ -348,9 +348,9 @@ const ChatBox: React.FC = () => {
                       <div className="flex items-start w-full gap-1">
                         <ChatBubble
                           id={0}
-                          username="Ava"
+                          username="Rio"
                           userImage = {botImage}
-                          message="Hello.👋 I'm Ava. You can ask me any questions."
+                          message="Hello.👋 I'm Rio. You can ask me any questions."
                           isUser={false}
                           onUpdateMessage={() => {}}
                           onDeleteMessagesFrom={() => {}}
