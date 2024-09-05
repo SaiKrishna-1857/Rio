@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chatBot_frontend/static/css/main.45ddc5c8.css",
-    "main.js": "/chatBot_frontend/static/js/main.a854d519.js",
-    "static/js/453.846be7d2.chunk.js": "/chatBot_frontend/static/js/453.846be7d2.chunk.js",
-    "static/media/bot_img.png": "/chatBot_frontend/static/media/bot_img.8b2ff77f0bd612416754.png",
-    "index.html": "/chatBot_frontend/index.html",
-    "main.45ddc5c8.css.map": "/chatBot_frontend/static/css/main.45ddc5c8.css.map",
-    "main.a854d519.js.map": "/chatBot_frontend/static/js/main.a854d519.js.map",
-    "453.846be7d2.chunk.js.map": "/chatBot_frontend/static/js/453.846be7d2.chunk.js.map"
+    "main.css": "/Rio/static/css/main.45ddc5c8.css",
+    "main.js": "/Rio/static/js/main.b9f35246.js",
+    "static/js/453.846be7d2.chunk.js": "/Rio/static/js/453.846be7d2.chunk.js",
+    "static/media/bot_img.png": "/Rio/static/media/bot_img.8b2ff77f0bd612416754.png",
+    "index.html": "/Rio/index.html",
+    "main.45ddc5c8.css.map": "/Rio/static/css/main.45ddc5c8.css.map",
+    "main.b9f35246.js.map": "/Rio/static/js/main.b9f35246.js.map",
+    "453.846be7d2.chunk.js.map": "/Rio/static/js/453.846be7d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45ddc5c8.css",
-    "static/js/main.a854d519.js"
+    "static/js/main.b9f35246.js"
   ]
 }
