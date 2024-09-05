@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRou
 
 const App: React.FC = () => {
   return (
-    <Router basename="/personal-portfolio">
+    <Router basename="/chatBot_frontend">
 
       <div className="App">
         <main>
