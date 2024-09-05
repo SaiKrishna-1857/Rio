@@ -146,7 +146,7 @@ const ChatBox: React.FC = () => {
   const sendMessageToBackend = async (content: string, tempId: number): Promise<{ id: number; response: string }> => {
     try {
       // Post the user's message content to the backend API.
-      const json_response = await axios.post('http://127.0.0.1:8000/messages/', {
+      const json_response = await axios.post('https://rosie-865f5ff39d68.herokuapp.com/messages/', {
         content,
       });
       // Return the response content and message ID from the backend as an object.
@@ -165,7 +165,7 @@ const ChatBox: React.FC = () => {
   const editMessageOnBackend = async (id: number, newContent: string) => {
     try {
         // Make a PUT request to update the message content in the backend.
-        const json_response = await axios.put(`http://127.0.0.1:8000/messages/${id}`, {
+        const json_response = await axios.put(`https://rosie-865f5ff39d68.herokuapp.com/messages/${id}`, {
             new_content: newContent,
         });
         return [json_response.data.response, json_response.data.id]; // Return the updated response and message ID.

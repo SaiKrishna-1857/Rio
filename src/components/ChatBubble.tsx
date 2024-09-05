@@ -34,7 +34,7 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({ id, username, userImage, messag
   const handleDelete = async () => {
     try {
       // Make a DELETE request to delete the message and all subsequent messages
-      await axios.delete(`http://127.0.0.1:8000/messages/${id}`);
+      await axios.delete(`https://rosie-865f5ff39d68.herokuapp.com/messages/${id}`);
 
       // Call the callback to remove the message from the frontend state
       onDeleteMessagesFrom(id);
